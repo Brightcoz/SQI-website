@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav {
+    position: fixed;
+    border: 1px solid rgb(206, 200, 200);
+    height: 80px;
+    background-color: whitesmoke;
+}
+
+.sqi-logo {
+    height: 75px;
+    position: fixed;
+    top: 3px;
+    left: 170px;
+    background-color: white;
+}
+
+.span {
+    gap: 25px;
+    display: flex;
+    position: fixed;
+    left: 600px;
+    top: 30px;
+    color: rgb(12, 12, 236);
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    width: 100%;
+}
+
+
+.a1 {
+    color: blue;
+    text-decoration: none;
+    background-color: white;
+}
+
+.select1 {
+    position: absolute;
+    left: 47px;
+    border: none;
+    outline: none;
+    top: 4px;
+    background-color: white;
+}
+
+.list1 {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    left: 20px;
+    top: 20px;
+    list-style: none;
+    padding-top: 30px;
+}
+
+.container1:hover .list1 {
+    display: block;
+    transition: ease-out;
+}
+
+.container1:not(:hover) .list1 {
+    opacity: 1;
+}
+
+.select2 {
+    border: none;
+    position: absolute;
+    left: 195px;
+    outline: none;
+    top: 5px;
+}
+
+.list2 {
+    position: absolute;
+    top: 20px;
+    width: 210px;
+    list-style: none;
+    left: 160px;
+    display: none;
+    padding-top: 30px;
+}
+
+.container2:hover .list2  {
+    display: block;
+    transition: ease-out;
+}
+
+.container2:not(:hover) .list2 {
+    opacity: 1;
+}
+
+.select3 {
+    border: none;
+    position: absolute;
+    left: 335px;
+    top: 5px;
+}
+
+.list3 {
+    position: absolute;
+    top: 10px;
+    list-style: none;
+    left: 300px;
+    display: none;
+    padding-top: 40px;
+    width: 200px;
+}
+
+.container3:hover .list3 {
+    display: block;
+    transition: ease-out;
+}
+
+.container3:not(:hover) .list3 {
+    opacity: 1;
+}
+
+.select4 {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 5px;
+    left: 440px;
+
+}
+
+.list4 {
+    border-style: none;
+    position: absolute;
+    top:20px;
+    left: 430px;
+    list-style: none;
+    display: none;
+    padding-top: 30px;
+    
+}
+
+.container4:hover .list4 {
+    display: block;
+    transition: ease-out;
+}
+
+.container4:not(:hover) .list4 {
+    opacity: 1;
+}
+
+.divvy {
+    background-color: #fdfdf5;
+    height: 500px;
+}
+
+.facebook {
+    position: fixed;
+    border-radius: 2px;
+    height: 50px;
+    left: -10px;
+    top: 250px;
+}
+
+.twitter {
+    position: fixed;
+    border-radius: 8px;
+    height: 50px;
+    left: -10px;
+    top: 299px;
+}
+
+.linkedin {
+    position: fixed;
+    border-radius: 8px;
+    height: 58px;
+    left: -10px;
+    top: 342px;
+}
+
+.para1 {
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para2 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 410px;
+    left: 120px;
+    font-size: 19px;
+}
+
+.imgGB {
+    position: absolute;
+    left: 700px;
+    height: 450px;
+    top: 150px;
+}
+
+.button1 {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    top: 500px;
+    left: 130px;
+    border-radius: 8px;
+    background-color: #00218a;
+    color: white;
+}
+
+.start {
+    color: white;
+}
+
+.parg {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    left: 150px;
+    top: 160px;
+}
+
+.divt {
+    position: relative;
+    height: 1000px;
+}
+
+.whatsapp {
+    height: 90px;
+    position: fixed;
+    left: 30px;
+    top: 560px;
+}
+
+.buttonx {
+    position: fixed;
+    padding: 7px;
+    border: none;
+    left: 120px;
+    top: 590px;
+}
+
+.IMG1 {
+    height: 350px;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+.IMG2 {
+    height: 350px;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+}
+
+.IMG3 {
+    height: 350px;
+    position: absolute;
+    top: 250px;
+    left: 950px;
+}
+
+@media screen and (max-width:479px) {
+    .IMG1 {
+        position: absolute;
+        left: 100px;
+
+    }
+}
+
+@media screen and (max-width:479px) {
+    .IMG2 {
+        position: absolute;
+        top: 400px;
+    }
+}
+
+.NID {
+    position: absolute;
+    top: 1150px;
+    left: 150px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.NID1 {
+    position: absolute;
+    top: 1230px;
+    left: 145px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.PDC {
+    position: absolute;
+    top: 1150px;
+    left: 540px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.PDC1 {
+    position: absolute;
+    top: 1230px;
+    left: 530px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.CP {
+    position: absolute;
+    top: 1150px;
+    left: 950px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.CP1 {
+    position: absolute;
+    top: 1230px;
+    left: 930px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.LM1 {
+    border-bottom: 2px solid rgb(46, 46, 136);
+    text-decoration: none;
+    position: absolute;
+    top: 1400px;
+    left: 145px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.LM2 {
+    border-bottom: 2px solid rgb(46, 46, 136);
+    text-decoration: none;
+    position: absolute;
+    top: 1400px;
+    left: 530px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.LM3 {
+    border-bottom: 2px solid rgb(46, 46, 136);
+    text-decoration: none;
+    position: absolute;
+    top: 1400px;
+    left: 930px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
